@@ -106,17 +106,17 @@ class TicTacToe
   end
   
   def winner
-    winner=nil
-    WIN_COMBINATIONS.each do |combo|
-      if @x_wins==combo
-        winner= "X"
-      elsif [@o_wins]==combo
-        winner= "O"
-      else
-      nil
-      end
-    end
-    winner
+    # winner=nil
+    # WIN_COMBINATIONS.each do |combo|
+    #   if @x_wins==combo
+    #     winner= "X"
+    #   elsif [@o_wins]==combo
+    #     winner= "O"
+    #   else
+    #   nil
+    #   end
+    # end
+    # winner
   end
   
   def play
