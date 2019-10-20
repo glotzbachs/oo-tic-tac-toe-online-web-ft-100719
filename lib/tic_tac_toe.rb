@@ -107,7 +107,6 @@ class TicTacToe
   
   def winner
     winner=nil
-    binding.pry
     WIN_COMBINATIONS.each do |combo|
       if @x_wins==combo
         winner= "X"
