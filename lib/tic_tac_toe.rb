@@ -117,6 +117,9 @@ class TicTacToe
     #   end
     # end
     # winner
+    if won?
+      board[won?]==["X","X","X"]
+      "X"
   end
   
   def play
