@@ -129,6 +129,8 @@ class TicTacToe
   end
   
   def play
+    @board
+    
     if !over?
       turn
     elsif won? 
