@@ -18,7 +18,6 @@ class TicTacToe
   
   def initialize(board=Array.new(9," "))
    @board=board
-   play
   end
    
   def display_board
