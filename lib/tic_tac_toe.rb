@@ -18,6 +18,7 @@ class TicTacToe
   
   def initialize(board=Array.new(9," "))
    @board=board
+   play
   end
    
   def display_board
@@ -129,16 +130,12 @@ class TicTacToe
   end
   
   def play
-    @board
-    
     if !over?
       turn
     elsif won? 
       "Congratulations #{winner}!"
     elsif draw?
       "Cat's Game!"
-    else
-      turn
     end
   end
   
