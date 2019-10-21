@@ -107,6 +107,7 @@ class TicTacToe
   
   def winner
     winner=nil
+    ##ORIGINAL IDEA
     # WIN_COMBINATIONS.each do |combo|
     #   if @x_wins==combo
     #     winner= "X"
